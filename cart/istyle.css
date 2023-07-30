@@ -1,0 +1,128 @@
+body{
+	background:#ffffff;
+}
+
+.cards{
+	margin: 60px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+    background: white;
+	gap: 40px;
+   padding: 1rem 3rem 6px ;
+	border-radius: 10px;
+	margin-top: 0px;
+}
+.cardlink:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+.cardlink:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+.card{
+	box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
+} 
+.card:hover{
+box-shadow: 1px 3px 15px 2px;
+}
+.card .image > img{
+	max-width: 100%;
+	height: 200px;
+	border-radius: 5px;
+}
+
+.card .info{
+	font-style: italic;
+	font-family: sans-serif;
+	
+}
+p{
+	padding: 0px 0px 0px 7px;
+}
+h2{
+	align-items: center;
+	padding: 0px 0px 0px 60px;
+}
+.card .btn{
+	display: flex;
+	justify-content: space-around;
+
+}
+.sticky{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.card .btn:hover{
+	opacity: 0.7;
+}
+.card .btn button{
+	border-radius: 20px;
+	background: #ffa600;
+	color: white;
+	font-size: 15px;
+	font-weight:700;
+	cursor: pointer;
+	padding: 10px 12px ;
+	border:none;
+}
+
+	.cart-btn{
+            border-radius:30px;
+            right:5px;
+            margin-left: 5px; 
+            margin-top:5px;         
+        }
+	.user{
+		border-radius:20px;
+		padding-left: 7px;
+		padding-right: 7px;
+		right:5px;
+		margin-left: 5px; 
+		margin-top:5px;
+	}
+	.acc{
+		position: fixed;
+		display:none;
+		right:5px;  
+		top:60px;
+		z-index: 1;
+	} 
+	.sign,.cart{
+		position: fixed;
+		background-color:rgba(0, 0, 0, 0.6);
+		display: none;
+		z-index: 1;
+		left: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+	}
+	.form{
+		background-color:white;
+		width:40%;
+		margin-left:30%;
+		margin-top:9%;
+	}
+	::placeholder{
+		font-size:17px; 
+	}
+	.but{
+		padding:6px;
+		background-color:rgb(0, 153, 255);
+		color:white;
+		font-size:17px;
+		border-radius: 30px;
+		margin-left:70%;
+	}
+	.input{
+		padding:10px;
+		width:80%;
+		margin-left:10%;
+	}
+	.brand{
+		display:none;
+	}

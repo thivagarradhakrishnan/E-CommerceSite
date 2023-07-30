@@ -1,0 +1,23 @@
+.container{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
+.btn{
+	margin: 10px;
+	border: none;
+	padding: 24px;
+	width: 220px;
+	background: #18c493;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 15px;
+}
+
+body{
+	background-image: linear-gradient(90deg, #ffffff 0%, #adf2fe 100%);
+}
